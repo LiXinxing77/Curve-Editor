@@ -1,3 +1,19 @@
+# LabVIEW generated files
 *.lvlps
 *.aliases
 *.lvcsm
+*.lvpkg
+*.lvproj.local
+*.dll
+*.exe
+*.ini.local
+
+# Build outputs
+builds/
+bin/
+obj/
+
+# IDE / OS
+.vscode/settings.json
+Thumbs.db
+Desktop.ini
