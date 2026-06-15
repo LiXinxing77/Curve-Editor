@@ -12,9 +12,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Curve Editor" Type="Folder" URL="../Curve Editor">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Pictures" Type="Folder">
+			<Item Name="抛物.png" Type="Document" URL="../Curve Editor/Pictures/抛物.png"/>
+			<Item Name="曲线.png" Type="Document" URL="../Curve Editor/Pictures/曲线.png"/>
+			<Item Name="正弦.png" Type="Document" URL="../Curve Editor/Pictures/正弦.png"/>
+			<Item Name="直线.png" Type="Document" URL="../Curve Editor/Pictures/直线.png"/>
 		</Item>
+		<Item Name="Curve Editor.lvlib" Type="Library" URL="../Curve Editor.lvlib"/>
+		<Item Name="Curve Editor.md" Type="Document" URL="../Curve Editor.md"/>
+		<Item Name="DEV ENVIRONMENT LabVIEW 2020" Type="Document" URL="../DEV ENVIRONMENT LabVIEW 2020"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="API String Arguments Support.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/addons/API-String-Arugments-Support/API String Arguments Support.lvlib"/>
