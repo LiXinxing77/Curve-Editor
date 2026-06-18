@@ -6,11 +6,8 @@ A LabVIEW module for curve editing and visualization built on the CSM (Communica
 
 ## 功能
 
-- 创建、编辑和可视化数学曲线（直线、抛物线、正弦波）
-- 曲线分组管理（添加、删除、重命名）
+- 创建、编辑和显示曲线（直线、抛物线、正弦波）
 - 文件持久化（新建、打开、保存）
-- 前面板交互（前面板状态控制、光标样式）
-- 键值对配置管理（通过 `Key Value.lvlib` 子模块）
 
 ## 模块架构
 
@@ -19,6 +16,7 @@ A LabVIEW module for curve editing and visualization built on the CSM (Communica
 | `Curve Editor(CSM).vi` | CSM 架构版本（当前主版本） |
 | `Curve Editor(QMH).vi` | QMH 架构版本（原始版本） |
 | `Curve Editor.lvlib` | 模块组（Library） |
+| `Key Value.lvlib` | 支持组（Library） |
 | `Curve Editor.md` | [模块接口文档](./Curve%20Editor.md) |
 
 ## 开发环境
